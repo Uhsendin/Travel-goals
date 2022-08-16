@@ -48,6 +48,11 @@
   background-color: rgb(255, 238, 0);
 }
 
+#highlights {
+  padding: 24px;
+ background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
@@ -57,12 +62,11 @@
 }
 
 #destinations {
-display: flex;
-width: 90%;
-margin: auto;
-margin-bottom: 40px;
-justify-content: center;
-  
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
 }
 
 .destination {
@@ -83,9 +87,8 @@ justify-content: center;
   box-shadow: 2px 4px 8px rgb(68, 67, 67);
   border-radius: 10px;
   object-fit: cover;
-
 }
 
 .destination strong {
-color: rgb(0, 160, 117);
+  color: rgb(0, 160, 117);
 }
